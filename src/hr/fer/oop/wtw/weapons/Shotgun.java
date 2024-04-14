@@ -1,7 +1,5 @@
 package hr.fer.oop.wtw.weapons;
 
-import hr.fer.oop.wtw.SoundPlayer;
-
 public class Shotgun extends Weapon implements Guns{
 	int munnition;
 	public boolean IsOutOfAmmo;

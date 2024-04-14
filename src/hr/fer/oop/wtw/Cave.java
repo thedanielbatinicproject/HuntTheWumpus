@@ -1,7 +1,5 @@
 package hr.fer.oop.wtw;
 
-import java.util.ArrayList;
-
 import hr.fer.oop.wtw.entities.Monster;
 
 public class Cave {

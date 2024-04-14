@@ -1,7 +1,6 @@
 package hr.fer.oop.wtw;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
 import java.lang.Integer;
@@ -80,11 +79,11 @@ public class Main {
     	//glavni loop, tj. uvjet za prolazak igre, i stopSound bool uvjet
     	boolean GoldCaveDiscovered = false;
     	
+		int k = 0;
     	while (!MainPlayer.getActiveCave().IsTreasureOpened()) {
     		
     		//Čistimo ekran nakon svakog ciklusa
-    		System.out.print("\033[H\033[2J");  
-    		System.out.flush();  //Trebalo bi raditi u CMDu?
+    		
     		
     		if (MainPlayer.IsDead()) {
     			System.out.print(RESET+RED_TEXT+BLACK_BG + "GAME OVER!" + RESET);
@@ -139,6 +138,11 @@ public class Main {
     			System.out.println(RESET + RED_TEXT + "WRONG ENTRY!" + RESET);
     			break;
     		}
+			k++;
+			if(k%2==0) {
+				System.out.print("\033[H\033[2J");  
+				System.out.flush();  //Trebalo bi raditi u CMDu?
+			}
     		
     	}
     	

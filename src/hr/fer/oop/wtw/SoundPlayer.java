@@ -1,7 +1,6 @@
 package hr.fer.oop.wtw;
 
 import java.io.File;
-import java.net.URL;
 import javax.sound.sampled.AudioSystem;
 import javax.sound.sampled.Clip;
 import java.util.ArrayList;
