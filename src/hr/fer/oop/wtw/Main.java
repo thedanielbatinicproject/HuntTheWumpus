@@ -5,6 +5,7 @@ import java.util.Random;
 import java.util.Scanner;
 import java.lang.Integer;
 
+
 import hr.fer.oop.wtw.entities.Dragon;
 import hr.fer.oop.wtw.entities.Ghoul;
 import hr.fer.oop.wtw.entities.Monster;
