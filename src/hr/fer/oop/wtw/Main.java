@@ -5,7 +5,6 @@ import java.util.Random;
 import java.util.Scanner;
 import java.lang.Integer;
 
-
 import hr.fer.oop.wtw.entities.Dragon;
 import hr.fer.oop.wtw.entities.Ghoul;
 import hr.fer.oop.wtw.entities.Monster;
@@ -81,6 +80,8 @@ public class Main {
     	boolean GoldCaveDiscovered = false;
     	
 		int k = 0;
+
+		//MARK: Main loop
     	while (!MainPlayer.getActiveCave().IsTreasureOpened()) {
     		
     		//Čistimo ekran nakon svakog ciklusa
