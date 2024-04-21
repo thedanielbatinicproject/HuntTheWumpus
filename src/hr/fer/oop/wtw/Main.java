@@ -82,6 +82,7 @@ public class Main {
 		int k = 0;
 
 		//MARK: Main loop
+		
     	while (!MainPlayer.getActiveCave().IsTreasureOpened()) {
     		
     		//Čistimo ekran nakon svakog ciklusa
